@@ -46,11 +46,21 @@ MonoBehaviour:
         Id:
           Value: 79389316696502535
       ResourcePath: DB/CharacterControllerEntity
+    - Path: Resources/DB/CharacterControllerEntityPlayer|EntityView
+      AssetRef:
+        Id:
+          Value: 814699797747240769
+      ResourcePath: DB/CharacterControllerEntityPlayer
     - Path: Resources/DB/Map1
       AssetRef:
         Id:
           Value: 1710471675203725834
       ResourcePath: DB/Map1
+    - Path: Resources/DB/CharacterControllerEntityPlayer|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 1719113371350739141
+      ResourcePath: DB/CharacterControllerEntityPlayer
     - Path: Resources/DB/CharacterControllerEntity|EntityPrototype
       AssetRef:
         Id:
