@@ -10831,7 +10831,7 @@ MonoBehaviour:
     characterPrototype:
       Id:
         Value: 2850012189728126843
-  toggleIsSpectator: {fileID: 0}
+  toggleIsSpectator: {fileID: 1973548806}
 --- !u!4 &1565167105
 Transform:
   m_ObjectHideFlags: 0
