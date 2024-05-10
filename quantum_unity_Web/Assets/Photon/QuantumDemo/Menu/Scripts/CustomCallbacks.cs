@@ -5,8 +5,8 @@ using UnityEngine.UI;
 public class CustomCallbacks : QuantumCallbacks 
 {
     public RuntimePlayer runtimePlayer;
-    public RuntimePlayer runtimePlayer2;
-    public Toggle toggle;
+    public RuntimePlayer runtimeSpectator;
+    public Toggle toggleIsSpectator;
 
     public override void OnGameStart(Quantum.QuantumGame game) 
     {
@@ -15,9 +15,9 @@ public class CustomCallbacks : QuantumCallbacks
 
         foreach (var lp in game.GetLocalPlayers()) {
           Debug.Log("CustomCallbacks - sending player: " + lp);
-            if (toggle.isOn)
+            if (toggleIsSpectator.isOn)
             {
-                game.SendPlayerData(lp, runtimePlayer2);
+                game.SendPlayerData(lp, runtimeSpectator);
             }
             else 
             {
@@ -25,7 +25,7 @@ public class CustomCallbacks : QuantumCallbacks
             }
           
         }
-        toggle.gameObject.SetActive(false);
+        toggleIsSpectator.gameObject.SetActive(false);
     }
 
     public override void OnGameResync(Quantum.QuantumGame game)

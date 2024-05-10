@@ -10826,12 +10826,12 @@ MonoBehaviour:
   runtimePlayer:
     characterPrototype:
       Id:
-        Value: 2850012189728126843
-  runtimePlayer2:
+        Value: 1719113371350739141
+  runtimeSpectator:
     characterPrototype:
       Id:
-        Value: 1719113371350739141
-  toggle: {fileID: 1973548806}
+        Value: 2850012189728126843
+  toggleIsSpectator: {fileID: 0}
 --- !u!4 &1565167105
 Transform:
   m_ObjectHideFlags: 0
